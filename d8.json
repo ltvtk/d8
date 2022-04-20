@@ -1,0 +1,6 @@
+{
+    "version": "10.3.10",
+    "url": "https://github.com/thvlt/d8/raw/main/d8.zip",
+    "extract_dir": "d8",
+    "bin": "v8.exe"
+}
