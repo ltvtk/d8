@@ -1,6 +1,6 @@
 {
     "version": "1.0.2",
     "url": "https://github.com/thvlt/d8/raw/main/TyperShark.zip",
-    "extract_dir": "ts",
+    "extract_dir": "TyperShark",
     "bin": "TyperShark.exe"
 }
