@@ -1,0 +1,6 @@
+{
+    "version": "1.0.2",
+    "url": "https://github.com/thvlt/d8/raw/main/Flowgorithm.zip",
+    "extract_dir": "Flowgorithm",
+    "bin": "Flowgorithm.exe"
+}
