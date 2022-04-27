@@ -1,6 +1,6 @@
 {
     "version": "8092744",
-    "url": "https://github.com/thvlt/d8/raw/main/Android.zip",
+    "url": "https://github.com/thvlt/d8/releases/download/0.1/Android.zip",
     "extract_dir": "Android",
     "bin": [
         "emulator\\emulator.exe",
