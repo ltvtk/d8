@@ -1,0 +1,19 @@
+{
+    "version": "8092744",
+    "url": "https://github.com/thvlt/d8/raw/main/Android.zip",
+    "extract_dir": "Android",
+    "bin": [
+        "emulator\\emulator.exe",
+        "emulator\\emulator-check.exe",
+        "emulator\\mksdcard.exe"
+    ],
+    "env_add_path": [
+      "cmdline-tools\\tools\\bin",
+      "platform-tools"
+    ]
+    "env_set": {
+        "ANDROID_SDK_ROOT": "$dir",
+        "ANDROID_SDK_HOME": "$dir\\home",
+        "JAVA_HOME": "$dir\\jre"
+    }
+}
