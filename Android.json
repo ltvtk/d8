@@ -22,7 +22,7 @@
         "licenses",
         "patcher",
         "platforms",
-        "platforms-tools",
+        "platform-tools",
         "skins",
         "system-images",
         ".knownPackages"
