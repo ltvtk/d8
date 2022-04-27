@@ -10,7 +10,7 @@
     "env_add_path": [
       "cmdline-tools\\tools\\bin",
       "platform-tools"
-    ]
+    ],
     "env_set": {
         "ANDROID_SDK_ROOT": "$dir",
         "ANDROID_SDK_HOME": "$dir\\home",
