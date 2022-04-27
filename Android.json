@@ -3,14 +3,12 @@
     "url": "https://github.com/thvlt/d8/releases/download/0.1/Android.zip",
     "extract_dir": "Android",
     "bin": [
-        "emulator\\emulator.exe",
-        "emulator\\emulator-check.exe",
-        "emulator\\mksdcard.exe",
         "download-avd.bat",
         "run-avd.bat"
     ],
     "env_add_path": [
       "cmdline-tools\\tools\\bin",
+      "emulator",
       "platform-tools"
     ],
     "env_set": {
