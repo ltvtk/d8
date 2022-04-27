@@ -5,7 +5,9 @@
     "bin": [
         "emulator\\emulator.exe",
         "emulator\\emulator-check.exe",
-        "emulator\\mksdcard.exe"
+        "emulator\\mksdcard.exe",
+        "download-avd.bat",
+        "run-avd.bat"
     ],
     "env_add_path": [
       "cmdline-tools\\tools\\bin",
