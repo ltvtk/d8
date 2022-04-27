@@ -15,16 +15,5 @@
         "ANDROID_SDK_ROOT": "$dir",
         "ANDROID_SDK_HOME": "$dir\\home",
         "JAVA_HOME": "$dir\\jre"
-    },
-    "persist": [
-        "build-tools",
-        "emulator",
-        "licenses",
-        "patcher",
-        "platforms",
-        "platform-tools",
-        "skins",
-        "system-images",
-        ".knownPackages"
-    ]
+    }
 }
