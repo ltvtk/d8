@@ -1,0 +1,27 @@
+ 1. cài scoop
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+Y
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+->  Running the installer as administrator is disabled by default, see https://github.com/ScoopInstaller/Install#for-admin for details.
+
+iwr -useb get.scoop.sh -outfile 'install.ps1'
+.\install.ps1 -RunAsAdmin
+
+
+3.cài thêm các gói cần
+scoop install aria2 git 7zip gow
+scoop bucket add extras
+4.Cài chương trình 
+scoop install vscode
+scoop install codeblocks-mingw
+scoop install https://github.com/thvlt/d8/raw/main/d8.json
+scoop install https://github.com/thvlt/d8/raw/main/Flowgorithm.json
+
+scoop install oraclejre8
+scoop install android-sdk
+install haxm
+sdkmanager "platforms;android-26" "system-images;android-26;google_apis_playstore;x86" "platform-tools"
+sdkmanager --licenses
+avdmanager create avd -n ad -k "system-images;android-26;google_apis_playstore;x86" --force
+avdmanager list avd
+emulator -avd ad
