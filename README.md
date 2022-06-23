@@ -1,4 +1,7 @@
 # chuột phải powershell -> run admin và gõ lệnh
+
+cd ~
+
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 
 Y
