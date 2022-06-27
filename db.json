@@ -20,25 +20,7 @@
             "type": "card",
             "description": "Bài 3: Puppy - click dòng này rồi chọn play-now",
             "imgLink": "https://www.tynker.com/image/hour-of-code/2016/puppy-adventure/puppy-1.png?width=740&height=410&mode=contain&format=jpg&quality=75&cache=max&v=1",
-            "link": "https://www.tynker.com/hour-of-code/puppy-adventure"
-          },
-          {
-            "type": "card",
-            "description": "Bài 4: Barbie - click dòng này rồi chọn play-now",
-            "imgLink": "https://www.tynker.com/image/hour-of-code/2017/barbie/barbie-pet-vet-1.png?width=964&height=538&mode=contain&format=jpg&quality=75&cache=max&v=1",
-            "link": "https://www.tynker.com/hour-of-code/barbie-pet-vet"
-          },
-          {
-            "type": "youtube",
-            "name": "Bài 5: DragonBlast - click dòng này rồi chọn play-now",
-            "videoId": "SrnvvWDm73k",
-            "link": "https://www.tynker.com/hour-of-code/dragon-blast"
-          },
-          {
-            "type": "youtube",
-            "name": "Bài 6: DragonDash - click dòng này rồi chọn play-now",
-            "videoId": "vOsdfRbrNdk",
-            "link": "https://www.tynker.com/hour-of-code/dragon-dash"
+            "link": "https://www.tynker.com/ide/v3?type=course&slug=activity:puppy-adventure&chapter=0&lesson=0"
           }
         ]
       },
