@@ -1,42 +1,5 @@
 [
     {
-        "name": "let's code (6+)",
-        "img": "https://e304920c.content.disney.io/popups/css/images/MoanaDialogGreen.png",
-        "bgColor": "darkcyan",
-        "data": [
-          {
-            "type": "youtube",
-            "name": "Disney - Moana",
-            "videoId": "YGTiODqaoms",
-            "link": "https://e304920c.content.disney.io/index.html?level=1&language=enus&character=1&gameProgress=&tutorialVideoProgress=A&audioOn=1&logoOn=0"
-          },
-          {
-            "type": "card",
-            "description": "Khỉ con đi tìm kho báu",
-            "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/07/25073704/block-coding-game-for-preschoolers.png",
-            "link": "https://app.codemonkey.com/junior/chapters/sequencing/challenges/1"
-          },
-          {
-            "type": "card",
-            "description": "Beaver xây tổ trên sông",
-            "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/12/18155718/Beaver_activity_image1.png",
-            "link": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1"
-          },
-          {
-            "type": "card",
-            "description": "",
-            "imgLink": "",
-            "link": ""
-          },
-          {
-            "type": "card",
-            "description": "",
-            "imgLink": "",
-            "link": ""
-          }
-        ]
-      },
-    {
       "name": "code.org (7+)",
       "img": "https://studio.code.org/blockly/media/skins/birds/small_static_avatar.png",
       "bgColor": "darkgrey",
@@ -45,6 +8,24 @@
           "type": "youtube",
           "name": "Bài 1: giới thiệu",
           "videoId": "OAx_6-wdslM"
+        },
+        {
+          "type": "youtube",
+          "name": "Disney - Moana",
+          "videoId": "YGTiODqaoms",
+          "link": "https://e304920c.content.disney.io/index.html?level=1&language=enus&character=1&gameProgress=&tutorialVideoProgress=A&audioOn=1&logoOn=0"
+        },
+        {
+          "type": "card",
+          "description": "Khỉ con đi tìm kho báu",
+          "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/07/25073704/block-coding-game-for-preschoolers.png",
+          "link": "https://app.codemonkey.com/junior/chapters/sequencing/challenges/1"
+        },
+        {
+          "type": "card",
+          "description": "Beaver xây tổ trên sông",
+          "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/12/18155718/Beaver_activity_image1.png",
+          "link": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1"
         },
         {
           "type": "youtube",
