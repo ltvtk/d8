@@ -5,11 +5,6 @@
       "bgColor": "darkgrey",
       "data": [
         {
-          "type": "youtube",
-          "name": "Giới thiệu",
-          "videoId": "OAx_6-wdslM"
-        },
-        {
           "type": "card",
           "description": "Disney - Moana",
           "imgLink": "https://e304920c.content.disney.io/popups/css/images/MoanaDialogGreen.png",
@@ -40,57 +35,33 @@
           "link": "https://studio.code.org/s/course2/stage/6/puzzle/1"
         },
         {
-          "type": "youtube",
-          "name": "Bài 4: vòng lặp(tt)",
-          "videoId": "4W9TAxGJyyU",
-          "link": "https://studio.code.org/s/course2/stage/8/puzzle/1"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 5: cấu trúc IF",
-          "videoId": "g8BQLKnrj2U",
-          "link": "https://studio.code.org/s/course2/stage/13/puzzle/1"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 6: Flappy Bird",
-          "videoId": "VQ4lo6Huylc",
-          "link": "https://studio.code.org/s/course2/stage/16/puzzle/1"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 7: IF nâng cao",
-          "videoId": "g8BQLKnrj2U",
-          "link": "https://studio.code.org/s/course3/stage/7/puzzle/1"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 8: Vòng lặp lồng nhau",
-          "videoId": "PuO6y8f1HGg",
-          "link": "https://studio.code.org/s/course3/stage/13/puzzle/1"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 9: Cấu trúc WHILE",
-          "videoId": "F8H-41bpJ6E",
-          "link": "https://studio.code.org/s/course3/stage/12/puzzle/1"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 10: Hàm - nâng cao",
-          "videoId": "xjrDRrxWvoc",
-          "link": "https://studio.code.org/s/course3/stage/6/puzzle/1"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 11: Ôn tập",
-          "videoId": "bQilo5ecSX4",
+          "type": "card",
+          "description": "Classic maze",
+          "imgLink": "https://code.org/shared/images/courses/logo_tall_hourofcode.jpg",
           "link": "https://studio.code.org/hoc/2"
         },
         {
-          "type": "youtube",
-          "name": "Bài 12: AI - bài chọn lọc",
-          "videoId": "OeU5m6vRyCk",
+          "type": "card",
+          "description": "Cấu trúc rẽ nhánh IF",
+          "imgLink": "https://studio.code.org/blockly/media/skins/bee/small_static_avatar.png",
+          "link": "https://studio.code.org/s/course2/stage/13/puzzle/1"
+        },
+        {
+          "type": "card",
+          "description": "Flappy Bird",
+          "imgLink": "https://code.org/shared/images/courses/logo_tall_flappy.jpg",
+          "link": "https://studio.code.org/s/course2/stage/16/puzzle/1"
+        },
+        {
+          "type": "card",
+          "description": "Cấu trúc WHILE",
+          "imgLink": "https://studio.code.org/blockly/media/skins/farmer/small_static_avatar.png",
+          "link": "https://studio.code.org/s/course3/stage/12/puzzle/1"
+        },
+        {
+          "type": "card",
+          "description": "Robot nhặt rác dưới biển",
+          "imgLink": "https://code.org/images/fill-485x235/oceans/ai_2020_overview.png",
           "link": "https://studio.code.org/s/oceans/stage/1/puzzle/1"
         }
       ]
