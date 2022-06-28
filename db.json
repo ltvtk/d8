@@ -28,10 +28,10 @@
           "link": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1"
         },
         {
-          "type": "youtube",
-          "name": "Bài 2: lập trình trình tự",
-          "videoId": "4N0R16Y97l0",
-          "link": "https://studio.code.org/s/pre-express-2020/stage/3/puzzle/2"
+          "type": "card",
+          "description": "Sóc nâu",
+          "imgLink": "https://studio.code.org/blockly/media/skins/scrat/small_static_avatar.png",
+          "link": "https://studio.code.org/s/pre-express-2021/lessons/6/levels/1"
         },
         {
           "type": "youtube",
