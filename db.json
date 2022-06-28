@@ -6,13 +6,13 @@
       "data": [
         {
           "type": "youtube",
-          "name": "Bài 1: giới thiệu",
+          "name": "Giới thiệu",
           "videoId": "OAx_6-wdslM"
         },
         {
-          "type": "youtube",
-          "name": "Disney - Moana",
-          "videoId": "YGTiODqaoms",
+          "type": "card",
+          "description": "Disney - Moana",
+          "imgLink": "https://e304920c.content.disney.io/popups/css/images/MoanaDialogGreen.png",
           "link": "https://e304920c.content.disney.io/index.html?level=1&language=enus&character=1&gameProgress=&tutorialVideoProgress=A&audioOn=1&logoOn=0"
         },
         {
