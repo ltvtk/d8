@@ -24,15 +24,9 @@
         },
         {
           "type": "card",
-          "description": "Sóc nâu",
+          "description": "Khóa học Sóc Nâu",
           "imgLink": "https://studio.code.org/blockly/media/skins/scrat/small_static_avatar.png",
-          "link": "https://studio.code.org/s/pre-express-2021/lessons/6/levels/1"
-        },
-        {
-          "type": "card",
-          "description": "Vòng lặp",
-          "imgLink": "https://studio.code.org/blockly/media/skins/birds/small_static_avatar.png",
-          "link": "https://studio.code.org/s/course2/stage/6/puzzle/1"
+          "link": "https://studio.code.org/s/pre-express-2021"
         },
         {
           "type": "card",
@@ -42,21 +36,15 @@
         },
         {
           "type": "card",
-          "description": "Cấu trúc rẽ nhánh IF",
-          "imgLink": "https://studio.code.org/blockly/media/skins/bee/small_static_avatar.png",
-          "link": "https://studio.code.org/s/course2/stage/13/puzzle/1"
+          "description": "Khóa học Gà Con",
+          "imgLink": "https://studio.code.org/blockly/media/skins/birds/small_static_avatar.png",
+          "link": "https://studio.code.org/s/express-2021"
         },
         {
           "type": "card",
           "description": "Flappy Bird",
           "imgLink": "https://code.org/shared/images/courses/logo_tall_flappy.jpg",
           "link": "https://studio.code.org/s/course2/stage/16/puzzle/1"
-        },
-        {
-          "type": "card",
-          "description": "Cấu trúc WHILE",
-          "imgLink": "https://studio.code.org/blockly/media/skins/farmer/small_static_avatar.png",
-          "link": "https://studio.code.org/s/course3/stage/12/puzzle/1"
         },
         {
           "type": "card",
