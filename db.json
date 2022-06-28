@@ -34,9 +34,9 @@
           "link": "https://studio.code.org/s/pre-express-2021/lessons/6/levels/1"
         },
         {
-          "type": "youtube",
-          "name": "Bài 3: vòng lặp",
-          "videoId": "mgooqyWMTxk",
+          "type": "card",
+          "description": "Vòng lặp",
+          "imgLink": "https://studio.code.org/blockly/media/skins/birds/small_static_avatar.png",
           "link": "https://studio.code.org/s/course2/stage/6/puzzle/1"
         },
         {
