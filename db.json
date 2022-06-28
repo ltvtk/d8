@@ -24,8 +24,8 @@
         },
         {
           "type": "card",
-          "description": "Khóa học Sóc Nâu",
-          "imgLink": "https://studio.code.org/blockly/media/skins/scrat/small_static_avatar.png",
+          "description": "Khóa học Sóc nâu",
+          "imgLink": "https://code.org/images/curriculum/new-course-tile-courseA.png",
           "link": "https://studio.code.org/s/pre-express-2021"
         },
         {
@@ -37,7 +37,7 @@
         {
           "type": "card",
           "description": "Khóa học Gà Con",
-          "imgLink": "https://studio.code.org/blockly/media/skins/birds/small_static_avatar.png",
+          "imgLink": "https://code.org/images/curriculum/new-course-tile-courseB.png",
           "link": "https://studio.code.org/s/express-2021"
         },
         {
