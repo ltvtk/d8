@@ -1,6 +1,6 @@
 [
     {
-      "name": "code.org (7+)",
+      "name": "code.org",
       "img": "https://studio.code.org/blockly/media/skins/birds/small_static_avatar.png",
       "bgColor": "darkgrey",
       "data": [
@@ -51,11 +51,17 @@
           "description": "Robot nhặt rác dưới biển",
           "imgLink": "https://code.org/images/fill-485x235/oceans/ai_2020_overview.png",
           "link": "https://studio.code.org/s/oceans/stage/1/puzzle/1"
+        },
+        {
+          "type": "card",
+          "description": "Star War",
+          "imgLink": "https://code.org/images/star-wars-announcement.jpg",
+          "link": "https://studio.code.org/s/starwars/lessons/1/levels/1"
         }
       ]
     },
     {
-      "name": "scratch (8+)",
+      "name": "scratch",
       "img": "https://slate.textile.io/ipfs/bafkreic3cdp3hoxg5rteqsor37g6wtcmxg3rt5kdlhec7o7grvfublyjm4",
       "bgColor": "darkgreen",
       "data": [
@@ -169,52 +175,9 @@
             "link": "https://www.dancemattypingguide.com/dance-mat-typing/level4_stage12.html"
           }
         ]
-      },
-      {
-        "name": "Vui học JS",
-        "img": "https://www.codemoji.com/images/bamboo.png",
-        "bgColor": "darkcyan",
-        "data": [
-          {
-            "type": "typing",
-            "name": "Bài 01 - JavaScript giới thiệu",
-            "videoId": "",
-            "link": "https://studio.code.org/s/starwars/stage/1/puzzle/1"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 02 - Hiểu về dòng lệnh cơ bản",
-            "videoId": "",
-            "link": "https://www.codemoji.com/lessons/js/beginner/1.php"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 03 - Thực hành thêm về dòng lệnh cơ bản",
-            "videoId": "",
-            "link": "https://www.codemoji.com/lessons/js/double/1.php"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 04 - Thực hành dòng lệnh JavaScript ",
-            "videoId": "",
-            "link": "https://www.codemoji.com/lessons/js/intermediate/1.php"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 05 - Học JavaScript trên Khan Academy",
-            "videoId": "",
-            "link": "https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-drawing-code/v/welcome-hour-of-code"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 06 - Tư duy với JavaScript",
-            "videoId": "",
-            "link": "https://terminal-two-v2.s3.us-east-2.amazonaws.com/TractorTraversal_WebGL/index.html"
-          }
-        ]
-      },
+    },
     {
-      "name": "phần mềm (9+)",
+      "name": "phần mềm",
       "img": "https://slate.textile.io/ipfs/bafkreigzcpdwa7utb2c6amvpuf4xth7kimawhqd74smnvglngpqrg3imkq",
       "bgColor": "darkgreen",
       "data": [
@@ -332,31 +295,6 @@
           "type": "youtube",
           "name": "Bài 22: vẽ gấu trúc",
           "videoId": "VZKrbk4hyik"
-        }
-      ]
-    },
-    {
-      "name": "Thiết bị STEM",
-      "img": "https://slate.textile.io/ipfs/bafybeid3w6hqqqeu3ifftmwbwh6oceq6b65xzozmcduwvskax44ywttpdu",
-      "bgColor": "darkred",
-      "data": [
-        {
-          "type": "card",
-          "description": "LEGO Boost Creative Toolbox",
-          "imgLink": "https://images-na.ssl-images-amazon.com/images/I/91G7D5qc8UL._SR200,200_.jpg",
-          "link": "https://bit.ly/2SrOWxi"
-        },
-        {
-          "type": "card",
-          "description": "Fire HD 8 Kids",
-          "imgLink": "https://images-na.ssl-images-amazon.com/images/I/61VmBJw9X6L._SR400,400_.jpg",
-          "link": "https://bit.ly/3dtjDvH"
-        },
-        {
-          "type": "card",
-          "description": "Micro:bit stem kit",
-          "imgLink": "https://images-na.ssl-images-amazon.com/images/I/81jsornKxZL._SR400,400_.jpg",
-          "link": "https://bit.ly/33jf5nW"
         }
       ]
     }
