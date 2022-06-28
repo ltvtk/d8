@@ -6,21 +6,33 @@
         "data": [
           {
             "type": "youtube",
-            "name": "Bài 1: Disney - Moana",
+            "name": "Disney - Moana",
             "videoId": "YGTiODqaoms",
             "link": "https://e304920c.content.disney.io/index.html?level=1&language=enus&character=1&gameProgress=&tutorialVideoProgress=A&audioOn=1&logoOn=0"
           },
           {
             "type": "card",
-            "description": "Bài 2: Beaver xây tổ trên sông",
+            "description": "Khỉ con đi tìm kho báu",
+            "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/07/25073704/block-coding-game-for-preschoolers.png",
+            "link": "https://app.codemonkey.com/junior/chapters/sequencing/challenges/1"
+          },
+          {
+            "type": "card",
+            "description": "Beaver xây tổ trên sông",
             "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/12/18155718/Beaver_activity_image1.png",
             "link": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1"
           },
           {
             "type": "card",
-            "description": "Bài 3: Puppy - click dòng này rồi chọn play-now",
-            "imgLink": "https://www.tynker.com/image/hour-of-code/2016/puppy-adventure/puppy-1.png?width=740&height=410&mode=contain&format=jpg&quality=75&cache=max&v=1",
-            "link": "https://www.tynker.com/ide/v3?type=course&slug=activity:puppy-adventure&chapter=0&lesson=0"
+            "description": "",
+            "imgLink": "",
+            "link": ""
+          },
+          {
+            "type": "card",
+            "description": "",
+            "imgLink": "",
+            "link": ""
           }
         ]
       },
