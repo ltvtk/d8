@@ -21,42 +21,6 @@
           "name": "Beaver xây tổ trên sông",
           "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/12/18155718/Beaver_activity_image1.png",
           "link": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1"
-        },
-        {
-          "type": "card",
-          "name": "Khóa học Sóc nâu",
-          "imgLink": "https://64.media.tumblr.com/11098456d0c14d421577bd6ab99d2ff4/tumblr_inline_pejqqqpyvn1s7qct1_500.png",
-          "link": "https://studio.code.org/s/pre-express-2021"
-        },
-        {
-          "type": "card",
-          "name": "Classic maze",
-          "imgLink": "https://code.org/shared/images/courses/logo_tall_hourofcode.jpg",
-          "link": "https://studio.code.org/hoc/2"
-        },
-        {
-          "type": "card",
-          "name": "Khóa học Ong Vàng",
-          "imgLink": "https://studio.code.org/shared/images/sad-bee-avatar.png",
-          "link": "https://studio.code.org/s/express-2021"
-        },
-        {
-          "type": "card",
-          "name": "Flappy Bird",
-          "imgLink": "https://code.org/shared/images/courses/logo_tall_flappy.jpg",
-          "link": "https://studio.code.org/s/course2/stage/16/puzzle/1"
-        },
-        {
-          "type": "card",
-          "name": "Robot nhặt rác dưới biển",
-          "imgLink": "https://code.org/images/fill-485x235/oceans/ai_2020_overview.png",
-          "link": "https://studio.code.org/s/oceans/stage/1/puzzle/1"
-        },
-        {
-          "type": "card",
-          "name": "Star War",
-          "imgLink": "https://code.org/images/star-wars-announcement.jpg",
-          "link": "https://studio.code.org/s/starwars/lessons/1/levels/1"
         }
       ]
     },
