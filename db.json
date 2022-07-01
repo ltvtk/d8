@@ -104,6 +104,44 @@
         ]
     },
     {
+      "name": "Python",
+      "img": "https://stemettes.org/zine/wp-content/uploads/sites/3/2021/08/giphy-5.gif",
+      "bgColor": "darkgreen",
+      "data": [
+        {
+          "type": "youtube",
+          "name": "Bài 1",
+          "videoId": "A0mIzwv7q8o",
+          "link":""
+        },
+        {
+          "type": "youtube",
+          "name": "Bài 2",
+          "videoId": "apMx0YMDxCc",
+          "link": ""
+        },
+        {
+          "type": "youtube",
+          "name": "Bài 3",
+          "videoId": "omfJjSf6_Z8",
+          "link":""
+        },
+        {
+          "type": "youtube",
+          "name": "Bài 4",
+          "videoId": "WnRUIxasywQ",
+          "link": ""
+        },
+        {
+          "type": "youtube",
+          "name": "Bài 5",
+          "videoId": "dikbOKzRJr0",
+          "link":""
+        }
+      ]
+    }
+    ,
+    {
       "name": "phần mềm",
       "img": "https://slate.textile.io/ipfs/bafkreigzcpdwa7utb2c6amvpuf4xth7kimawhqd74smnvglngpqrg3imkq",
       "bgColor": "darkgreen",
