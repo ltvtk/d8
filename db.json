@@ -109,33 +109,51 @@
       "bgColor": "darkgreen",
       "data": [
         {
-          "type": "youtube",
+          "type": "video",
           "name": "Bài 1",
-          "videoId": "A0mIzwv7q8o",
+          "videoId": "https://slate.textile.io/ipfs/bafybeifh5vcl5tpyodi5x4nratokbf47g2paubw3rfykqdmabnnkdd3q24",
           "link":""
         },
         {
-          "type": "youtube",
+          "type": "video",
           "name": "Bài 2",
-          "videoId": "apMx0YMDxCc",
+          "videoId": "https://slate.textile.io/ipfs/bafybeic2zqmxeikcx73kaiaaqmgalw6yva25b5i2mdqxsukpowf62xwipq",
           "link": ""
         },
         {
-          "type": "youtube",
+          "type": "video",
           "name": "Bài 3",
-          "videoId": "omfJjSf6_Z8",
+          "videoId": "https://slate.textile.io/ipfs/bafybeiatn5uccvnylqczwp2x26jrcdilmsjad3uat45sdtjkerrhjdrv5m",
           "link":""
         },
         {
-          "type": "youtube",
+          "type": "video",
           "name": "Bài 4",
-          "videoId": "WnRUIxasywQ",
+          "videoId": "https://slate.textile.io/ipfs/bafybeif25l65i5ltah2cuyyd5257svugid7be7uuirane4wds2qde73ozm",
           "link": ""
         },
         {
-          "type": "youtube",
+          "type": "video",
           "name": "Bài 5",
-          "videoId": "dikbOKzRJr0",
+          "videoId": "https://slate.textile.io/ipfs/bafybeic7nmyqtzqq265uy477nxgwqe2hgmb2xwdx7lpeh3gvymr5lqza54",
+          "link":""
+        },
+        {
+          "type": "video",
+          "name": "Bài 6",
+          "videoId": "https://slate.textile.io/ipfs/bafybeiehi6pf56ujo75a32vxiz6mt7lveojp67q6rfhohgpfgrhwjeafue",
+          "link":""
+        },
+        {
+          "type": "video",
+          "name": "Bài 7",
+          "videoId": "https://slate.textile.io/ipfs/bafybeidozeqlfgg6orykrvp7rsuch7e6sa4t4i4wweraoodk4k6f3n3aem",
+          "link":""
+        },
+        {
+          "type": "video",
+          "name": "Bài 8",
+          "videoId": "https://slate.textile.io/ipfs/bafybeia2haajv4psrf35dthkhzf7buwhaz74rkn2l7qbphdflt2iuiik4e",
           "link":""
         }
       ]
