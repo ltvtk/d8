@@ -82,6 +82,8 @@ wikipedia.org
 
 youtubekids.com
 
+amazon.com
+
 ##block
 https://code.org/educate/
 
