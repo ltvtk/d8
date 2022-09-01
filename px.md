@@ -16,6 +16,9 @@ youtubekids.com
 icloud.com
 proton.me
 protonmail.com
+yahoo.com
+dropbox.com
+live.com
 
 gitpod.io
 replit.com
@@ -75,11 +78,11 @@ raspberrypi.org
 tvokids.com
 udemy.com
 
-
 edu.vn
 freetalkenglish*
 cloudworks*
 luyenthi123.com
 tienganh123.com
-
+win-rar.com
+unikey.org
 
