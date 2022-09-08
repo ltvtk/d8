@@ -1,0 +1,8 @@
+cd ~
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+iwr -useb get.scoop.sh -outfile 'install.ps1'
+.\install.ps1 -RunAsAdmin
+scoop install gow git-with-openssh
+scoop bucket add extras
+scoop bucket add ltvapps https://github.com/thvlt/ltvapps
+scoop install vscode ltv scratch Flowgorithm thonny TyperShark MonkeyStories MonkeyMath UniKeyNT logo32 -g
