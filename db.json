@@ -1,301 +1,885 @@
-[
-    {
-      "name": "code.org",
-      "img": "https://studio.code.org/blockly/media/skins/birds/small_static_avatar.png",
-      "bgColor": "darkgrey",
-      "data": [
+{
+  "whitelist": [
         {
-          "type": "card",
-          "name": "Disney - Moana",
-          "imgLink": "https://e304920c.content.disney.io/popups/css/images/MoanaDialogGreen.png",
-          "link": "https://e304920c.content.disney.io/index.html?level=1&language=enus&character=1&gameProgress=&tutorialVideoProgress=A&audioOn=1&logoOn=0"
+            "domain": "code.org",
+            "blacklistedPaths": ["/minecraft", "/projects","/s/hero","/s/aquatic","/s/minecraft",
+            "/s/*/lessons/15/*","/s/*/lessons/18/*","/s/*/lessons/21/*"]
         },
         {
-          "type": "card",
-          "name": "Khỉ con đi tìm kho báu",
-          "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/07/25073704/block-coding-game-for-preschoolers.png",
-          "link": "https://app.codemonkey.com/junior/chapters/sequencing/challenges/1"
+            "domain": "github.com"
         },
         {
-          "type": "card",
-          "name": "Beaver xây tổ trên sông",
-          "imgLink": "https://d3sujgifhk94se.cloudfront.net/wp-content/uploads/2019/12/18155718/Beaver_activity_image1.png",
-          "link": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1"
-        }
-      ]
-    },
-    {
-      "name": "scratch",
-      "img": "https://slate.textile.io/ipfs/bafkreic3cdp3hoxg5rteqsor37g6wtcmxg3rt5kdlhec7o7grvfublyjm4",
-      "bgColor": "darkgreen",
-      "data": [
+            "domain": "github.io"
+        },
         {
-          "type": "video",
-          "name": "Vũ điệu khủng long",
-          "videoId": "https://slate.textile.io/ipfs/bafybeieyk4z7rchn6vrqxjio4yx6gg6bi76wpwqkrc6zytffrgrbkyxg7y"
+            "domain": "replit.com"
+        },
+        {
+            "domain": "repl.it"
+        },
+        {
+            "domain": "tinhoctre.vn"
+        },
+        {
+            "domain": "vnoi.info"
+        },
+        {
+            "domain": "localhost"
+        },
+        {
+            "domain": "about:blank"
+        },
+        {
+            "domain": "disney.io"
+        },
+        {
+            "domain": "hatchxr.com"
+        },
+        {
+            "domain": "codemonkey.com"
+        },
+        {
+            "domain": "raspberrypi.org"
+        },
+        {
+            "domain": "blockly.games"
+        },
+        {
+            "domain": "python.org"
+        },
+        {
+            "domain": "trinket.io"
+        },
+        {
+            "domain": "kiddle.co"
+        },
+        {
+            "domain": "kientaotam.com"
+        },
+        {
+            "domain": "wikipedia.org"
+        },
+        {
+            "domain": "khanacademy.org"
+        },
+        {
+            "domain": "edx.org"
+        },
+        {
+            "domain": "coursera.org"
+        },
+        {
+            "domain": "udacity.com"
+        },
+        {
+            "domain": "ted.com"
+        },
+        {
+            "domain": "harvard.edu"
+        },
+        {
+            "domain": "stanford.edu"
+        },
+        {
+            "domain": "gov.sg"
+        },
+        {
+            "domain": "edu.au"
+        },
+        {
+            "domain": "go.jp"
+        },
+        {
+            "domain": "kmooc.kr"
+        },
+        {
+            "domain": "edu.vn"
+        },
+        {
+            "domain": "gov.vn"
+        },
+        {
+            "domain": "codecombat.com"
+        },
+        {
+            "domain": "codeforces.com"
+        },
+        {
+            "domain": "hackerrank.com"
+        },
+        {
+            "domain": "ocw.mit.edu"
+        },
+        {
+            "domain": "yale.edu"
+        },
+        {
+            "domain": "ac.in"
+        },
+        {
+            "domain": "mathisfun.com"
+        },
+        {
+            "domain": "brilliant.org"
+        },
+        {
+            "domain": "ixl.com"
+        },
+        {
+            "domain": "mathplayground.com"
+        },
+        {
+            "domain": "coolmath.com"
+        },
+        {
+            "domain": "mathway.com"
+        },
+        {
+            "domain": "symbolab.com"
+        },
+        {
+            "domain": "photomath.com"
+        },
+        {
+            "domain": "mathantics.com"
+        },
+        {
+            "domain": "artofproblemsolving.com"
+        },
+        {
+            "domain": "maths.org"
+        },
+        {
+            "domain": "nasa.gov"
+        },
+        {
+            "domain": "nationalgeographic.com"
+        },
+        {
+            "domain": "colorado.edu"
+        },
+        {
+            "domain": "scientificamerican.com"
+        },
+        {
+            "domain": "kidscodecs.com"
+        },
+        {
+            "domain": "sciencebuddies.org"
+        },
+        {
+            "domain": "exploratorium.edu"
+        },
+        {
+            "domain": "howstuffworks.com"
+        },
+        {
+            "domain": "space.com"
+        },
+        {
+            "domain": "sciencenewsforstudents.org"
+        },
+        {
+            "domain": "stevespanglerscience.com"
+        },
+        {
+            "domain": "chemcollective.org"
+        },
+        {
+            "domain": "physicsclassroom.com"
+        },
+        {
+            "domain": "biologycorner.com"
+        },
+        {
+            "domain": "labxchange.org"
+        },
+        {
+            "domain": "concord.org"
+        },
+        {
+            "domain": "asu.edu"
+        },
+        {
+            "domain": "brainpop.com"
+        },
+        {
+            "domain": "quizlet.com"
+        },
+        {
+            "domain": "studystack.com"
+        },
+        {
+            "domain": "memrise.com"
+        },
+        {
+            "domain": "goconqr.com"
+        },
+        {
+            "domain": "anki.net"
+        },
+        {
+            "domain": "cram.com"
+        },
+        {
+            "domain": "sporcle.com"
+        },
+        {
+            "domain": "edpuzzle.com"
+        },
+        {
+            "domain": "nearpod.com"
+        },
+        {
+            "domain": "kahoot.com"
+        },
+        {
+            "domain": "quizizz.com"
+        },
+        {
+            "domain": "socrative.com"
+        },
+        {
+            "domain": "classcraft.com"
+        },
+        {
+            "domain": "peardeck.com"
+        },
+        {
+            "domain": "explorelearning.com"
+        },
+        {
+            "domain": "prodigygame.com"
+        },
+        {
+            "domain": "readworks.org"
+        },
+        {
+            "domain": "newsela.com"
+        },
+        {
+            "domain": "commonlit.org"
+        },
+        {
+            "domain": "readtheory.org"
+        },
+        {
+            "domain": "grammarly.com"
+        },
+        {
+            "domain": "noredink.com"
+        },
+        {
+            "domain": "vocabulary.com"
+        },
+        {
+            "domain": "freerice.com"
+        },
+        {
+            "domain": "typing.com"
+        },
+        {
+            "domain": "nitrotype.com"
+        },
+        {
+            "domain": "typingclub.com"
+        },
+        {
+            "domain": "codecademy.com"
+        },
+        {
+            "domain": "freecodecamp.org"
+        },
+        {
+            "domain": "codewars.com"
+        },
+        {
+            "domain": "grasshopper.app"
+        },
+        {
+            "domain": "w3schools.com"
+        },
+        {
+            "domain": "geeksforgeeks.org"
+        },
+        {
+            "domain": "stackoverflow.com"
+        },
+        {
+            "domain": "leetcode.com"
+        },
+        {
+            "domain": "kaggle.com"
+        },
+        {
+            "domain": "datacamp.com"
+        },
+        {
+            "domain": "duolingo.com"
+        },
+        {
+            "domain": "futurelearn.com"
+        },
+        {
+            "domain": "openlearning.com"
+        },
+        {
+            "domain": "udemy.com"
+        },
+        {
+            "domain": "skillshare.com"
+        },
+        {
+            "domain": "pluralsight.com"
+        },
+        {
+            "domain": "educative.io"
+        },
+        {
+            "domain": "sololearn.com"
+        },
+        {
+            "domain": "mathworks.com"
+        },
+        {
+            "domain": "wolframalpha.com"
+        },
+        {
+            "domain": "desmos.com"
+        },
+        {
+            "domain": "geogebra.org"
+        },
+        {
+            "domain": "topcoder.com"
+        },
+        {
+            "domain": "hackerearth.com"
+        },
+        {
+            "domain": "projecteuler.net"
+        },
+        {
+            "domain": "codinggame.com"
+        },
+        {
+            "domain": "codingame.com"
+        },
+        {
+            "domain": "codechef.com"
+        },
+        {
+            "domain": "spoj.com"
+        },
+        {
+            "domain": "lightbot.com"
+        },
+        {
+            "domain": "alice.org"
+        },
+        {
+            "domain": "codeconquest.com"
+        },
+        {
+            "domain": "codeavengers.com"
+        },
+        {
+            "domain": "codingbat.com"
+        },
+        {
+            "domain": "codehs.com"
+        },
+        {
+            "domain": "codesignal.com"
+        },
+        {
+            "domain": "codingninjas.com"
+        },
+        {
+            "domain": "programiz.com"
+        },
+        {
+            "domain": "learnpython.org"
+        },
+        {
+            "domain": "py4e.com"
+        },
+        {
+            "domain": "pythonanywhere.com"
+        },
+        {
+            "domain": "reeborg.ca"
+        },
+        {
+            "domain": "checkio.org"
+        },
+        {
+            "domain": "edabit.com"
+        },
+        {
+            "domain": "edublocks.org"
+        },
+        {
+            "domain": "codecampkidz.com"
+        },
+        {
+            "domain": "atcoder.jp"
+        },
+        {
+            "domain": "onlinejudge.org"
+        },
+        {
+            "domain": "timus.ru"
+        },
+        {
+            "domain": "usaco.org"
+        },
+        {
+            "domain": "cpbook.net"
+        },
+        {
+            "domain": "olp.xyz"
+        },
+        {
+            "domain": "hocmai.vn"
+        },
+        {
+            "domain": "vietjack.com"
+        },
+        {
+            "domain": "violet.vn"
+        },
+        {
+            "domain": "loigiaihay.com"
+        },
+        {
+            "domain": "moon.vn"
+        },
+        {
+            "domain": "onluyen.vn"
+        },
+        {
+            "domain": "luyenthionline.vn"
+        },
+        {
+            "domain": "vndoc.com"
+        },
+        {
+            "domain": "tuhocit.com"
+        },
+        {
+            "domain": "tienganh123.com"
+        },
+        {
+            "domain": "tienganhmoingay.com"
+        },
+        {
+            "domain": "hoc247.net"
+        },
+        {
+            "domain": "luyenthi123.com"
+        },
+        {
+            "domain": "kenhtuyensinh.vn"
+        },
+        {
+            "domain": "thuvienkhoahoc.com"
+        },
+        {
+            "domain": "sachgiai.com"
+        },
+        {
+            "domain": "thuvienhoclieu.com"
+        },
+        {
+            "domain": "tailieu.vn"
+        },
+        {
+            "domain": "123doc.org"
+        },
+        {
+            "domain": "hochoadaikythuat.com"
+        },
+        {
+            "domain": "toanhoc.net"
+        },
+        {
+            "domain": "toanmath.com"
+        },
+        {
+            "domain": "matviet.net"
+        },
+        {
+            "domain": "khoahoc.tv"
+        },
+        {
+            "domain": "hoc10.vn"
+        },
+        {
+            "domain": "vted.vn"
+        },
+        {
+            "domain": "thichthuhoc.vn"
+        },
+        {
+            "domain": "codegym.vn"
+        },
+        {
+            "domain": "codelearn.io"
+        },
+        {
+            "domain": "eslbuzz.com"
+        },
+        {
+            "domain": "engvid.com"
+        },
+        {
+            "domain": "britishcouncil.org"
+        },
+        {
+            "domain": "eslgold.com"
+        },
+        {
+            "domain": "talkenglish.com"
+        },
+        {
+            "domain": "fluentu.com"
+        },
+        {
+            "domain": "oxfordonlineenglish.com"
+        },
+        {
+            "domain": "vietnamesepod101.com"
+        },
+        {
+            "domain": "learningvietnamese.com"
+        },
+        {
+            "domain": "viettri.com.vn"
+        },
+        {
+            "domain": "tiengvietonline.com.vn"
+        },
+        {
+            "domain": "viettolearnenglish.com"
+        },
+        {
+            "domain": "voca.vn"
+        },
+        {
+            "domain": "tflat.vn"
+        },
+        {
+            "domain": "elllo.org"
+        },
+        {
+            "domain": "lingodeer.com"
+        },
+        {
+            "domain": "hellotalk.com"
+        },
+        {
+            "domain": "busuu.com"
+        },
+        {
+            "domain": "italki.com"
+        },
+        {
+            "domain": "lang-8.com"
+        },
+        {
+            "domain": "umbalena.vn"
+        },
+        {
+            "domain": "tainangviet.vn"
+        },
+        {
+            "domain": "microbit.org"
+        },
+        {
+            "domain": "mindstorms.com"
+        },
+        {
+            "domain": "lego.com"
+        },
+        {
+            "domain": "javascript.info"
         }
-      ]
+    ],
+  "blacklist": [
+    {
+      "domain": "youtube.com",
+      "whitelistedPaths": ["/embed/*?channel=@MollyofDenali*",
+      "/embed/*PLLhOnau-tupSS-eFNBOwqgfQHpOV3ASqN*",
+      "/embed/*PLP4H73sp9PL9CbQD8m2Erc7FbZbPHMJZA*",
+      "/embed/*PLdkj6XH8GYPS6ArBvqavheM_7d705YD-s*",
+      "/embed/*PLpfxVARjkP-_f-E9IU6IHmy5ECj0HqiLB*",
+      "/embed/*PLrsH46EwyUzTVIeueQYFG6SFr9tZVJgEH*",
+      "/embed/*PLamcOkhpSCR2iBCxOico0oiYeMWnEkB_Y*",
+      "/embed/*PLS9qLR8VoFA56NWSswK2daQSovI9QCpQE*"
+    ]
     },
     {
-        "name": "gõ phím",
-        "img": "https://ichef.bbci.co.uk/images/ic/1280xn/p0252jmf.jpg",
-        "bgColor": "darkred",
-        "data": [
+      "domain": "pbskids.org",
+      "whitelistedPaths": ["/gardening/*","/md-canoeing-game/*","/designsquad/games*"
+      ,"/molly/games*","/plumlanding/games*","/oddsquad/games*","/catinthehat/games*",
+    "/curiousgeorge/busyday*","/space-scouts-home-base/*","/cith-bridge-builder/*"]
+    },
+    {
+      "domain": "numuki.com",
+      "whitelistedPaths": ["/games/blaze/blaze-learn-to-code*"]
+    },
+    {
+      "domain": "tynker.com",
+      "whitelistedPaths": ["/ide/*puppy-adventure*"]
+    }
+  ],
+  "default": {
+    "Code": [
+      {
+        "name": "Elementry",
+        "isFolder": true,
+        "editable": false,
+        "children": [
           {
-            "type": "typing",
-            "name": "Bài 01",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level1_stage1.html"
+            "name": "Code.org",
+            "isFolder": true,
+            "editable": false,
+            "children": [
+              {
+                "name": "01-sequence",
+                "url": "https://studio.code.org/s/express-2024/lessons/1/levels/2?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "Ex-Harvester",
+                "url": "https://studio.code.org/s/courseb-2024/lessons/5/levels/2?section_id=5544519&viewAs=Instructor",
+                "editable": false
+              },
+              {
+                "name": "02-Loop",
+                "url": "https://studio.code.org/s/express-2024/lessons/11/levels/5?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "Ex-Harvester-loop",
+                "url": "https://studio.code.org/s/coursec-2024/lessons/9/levels/2?section_id=5544519&viewAs=Instructor",
+                "editable": false
+              },
+              {
+                "name": "03-nested-loop",
+                "url": "https://studio.code.org/s/express-2024/lessons/13/levels/2?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "Ex-Bee-loop-loop",
+                "url": "https://studio.code.org/s/express-2024/lessons/28/levels/1?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "04-IF ELSE",
+                "url": "https://studio.code.org/s/express-2024/lessons/16/levels/1?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "05-While",
+                "url": "https://studio.code.org/s/express-2024/lessons/17/levels/1?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "06-Until-loop",
+                "url": "https://studio.code.org/s/express-2024/lessons/19/levels/1?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "07-Conditional",
+                "url": "https://studio.code.org/s/express-2024/lessons/20/levels/2?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "08-Function",
+                "url": "https://studio.code.org/s/express-2024/lessons/22/levels/2?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "09-Variables",
+                "url": "https://studio.code.org/s/express-2024/lessons/27/levels/2?section_id=5544519",
+                "editable": false
+              },
+              {
+                "name": "Classic Maze",
+                "url": "https://studio.code.org/hoc/1",
+                "editable": false
+              },
+              {
+                "name": "Flappy Bird",
+                "url": "https://studio.code.org/flappy/1",
+                "editable": false
+              },
+              {
+                "name": "Star Wars",
+                "url": "https://studio.code.org/s/starwars/lessons/1/levels/1",
+                "editable": false
+              }
+            ]
           },
           {
-            "type": "typing",
-            "name": "Bài 02",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level1_stage2.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 03",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level1_stage3.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 04",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level2_stage4.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 05",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level2_stage5.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 06",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level2_stage6.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 07",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level3_stage7.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 08",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level3_stage8.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 09",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level3_stage9.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 10",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level4_stage10.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 11",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level4_stage11.html"
-          },
-          {
-            "type": "typing",
-            "name": "Bài 12",
-            "link": "https://www.dancemattypingguide.com/dance-mat-typing/level4_stage12.html"
+            "name": "Hour-of-code",
+            "isFolder": true,
+            "editable": false,
+            "children": [
+              {
+                "name": "Blaze robot",
+                "url": "https://files.numuki.com/games/blaze/blaze-learn-to-code/index.html",
+                "editable": false
+              },
+              {
+                "name": "Puppy adventure",
+                "url": "https://www.tynker.com/ide/v3?type=course&slug=activity:puppy-adventure&chapter=0&lesson=0",
+                "editable": false
+              },
+              {
+                "name": "Disney Moan",
+                "url": "https://e304920c.content.disney.io/index.html",
+                "editable": false
+              },
+              {
+                "name": "Beaver Achive",
+                "url": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1",
+                "editable": false
+              }
+            ]
           }
         ]
-    },
-    {
-      "name": "Python",
-      "img": "https://stemettes.org/zine/wp-content/uploads/sites/3/2021/08/giphy-5.gif",
-      "bgColor": "darkgreen",
-      "data": [
-        {
-          "type": "video",
-          "name": "Bài 1",
-          "videoId": "https://slate.textile.io/ipfs/bafybeifh5vcl5tpyodi5x4nratokbf47g2paubw3rfykqdmabnnkdd3q24",
-          "link":""
-        },
-        {
-          "type": "video",
-          "name": "Bài 2",
-          "videoId": "https://slate.textile.io/ipfs/bafybeic2zqmxeikcx73kaiaaqmgalw6yva25b5i2mdqxsukpowf62xwipq",
-          "link": ""
-        },
-        {
-          "type": "video",
-          "name": "Bài 3",
-          "videoId": "https://slate.textile.io/ipfs/bafybeiatn5uccvnylqczwp2x26jrcdilmsjad3uat45sdtjkerrhjdrv5m",
-          "link":""
-        },
-        {
-          "type": "video",
-          "name": "Bài 4",
-          "videoId": "https://slate.textile.io/ipfs/bafybeif25l65i5ltah2cuyyd5257svugid7be7uuirane4wds2qde73ozm",
-          "link": ""
-        },
-        {
-          "type": "video",
-          "name": "Bài 5",
-          "videoId": "https://slate.textile.io/ipfs/bafybeic7nmyqtzqq265uy477nxgwqe2hgmb2xwdx7lpeh3gvymr5lqza54",
-          "link":""
-        },
-        {
-          "type": "video",
-          "name": "Bài 6",
-          "videoId": "https://slate.textile.io/ipfs/bafybeiehi6pf56ujo75a32vxiz6mt7lveojp67q6rfhohgpfgrhwjeafue",
-          "link":""
-        },
-        {
-          "type": "video",
-          "name": "Bài 7",
-          "videoId": "https://slate.textile.io/ipfs/bafybeidozeqlfgg6orykrvp7rsuch7e6sa4t4i4wweraoodk4k6f3n3aem",
-          "link":""
-        },
-        {
-          "type": "video",
-          "name": "Bài 8",
-          "videoId": "https://slate.textile.io/ipfs/bafybeia2haajv4psrf35dthkhzf7buwhaz74rkn2l7qbphdflt2iuiik4e",
-          "link":""
+      },
+      {
+        "name": "Tutorials",
+        "isFolder": true,
+        "editable": false,
+        "children": [
+          {
+            "name": "Scratch Basic",
+            "url": "https://www.youtube.com/embed/videoseries?list=PLpfxVARjkP-_f-E9IU6IHmy5ECj0HqiLB",
+            "editable": false
+          },
+          {
+            "name": "Platformer game",
+            "url": "https://www.youtube.com/embed/videoseries?list=PLrsH46EwyUzTVIeueQYFG6SFr9tZVJgEH",
+            "editable": false
+          },
+          {
+            "name": "Scratch intermedia",
+            "url": "https://www.youtube.com/embed/videoseries?list=PLamcOkhpSCR2iBCxOico0oiYeMWnEkB_Y",
+            "editable": false
+          },
+          {
+            "name": "Python turtle video tutorial",
+            "url": "https://www.youtube.com/embed/videoseries?list=PLS9qLR8VoFA56NWSswK2daQSovI9QCpQE",
+            "editable": false
+          },
+          {
+            "name": "Python turtle docs",
+            "url": "https://docs.python.org/3/library/turtle.html",
+            "editable": true
+          },
+          {
+            "name": "Pygame Zero tutorial",
+            "url": "https://aposteriori.trinket.io/game-development-with-pygame-zero#/gem-catcher/first-program",
+            "editable": true
+          },
+          {
+            "name": "Scratch tutorial docs",
+            "url": "https://projects.raspberrypi.org/en/collections/scratch",
+            "editable": true
+          },
+          {
+            "name": "Search ...",
+            "url": "https://www.kiddle.co/",
+            "editable": true
+          }
+        ]
+      }
+    ],
+    "English": [
+      {
+        "name": "PBS Kids",
+        "isFolder": true,
+        "editable": true,
+        "children": [
+          {"name": "Maths",
+            "isFolder": true,
+            "editable": false,
+            "children":[
+              {
+                "name": "01-CG-busy day",
+                "url": "https://pbskids.org/curiousgeorge/busyday/",
+                "editable": false
+              },
+              {
+                "name": "02-RJG-Space scouts",
+                "url": "https://springroll-tc.pbskids.org/space-scouts-home-base/3afb9dc78b7e295dc7f47497f1d167a6b5bea849/release/index.html",
+                "editable": false
+              },
+              {
+                "name": "03-Bridge builder",
+                "url": "https://springroll-tc.pbskids.org/cith-bridge-builder/d57ff27195ad67af889bb053068fea992783ce33/release/index.html",
+                "editable": false
+              },
+              {
+                "name": "04-Design Squad",
+                "url": "https://pbskids.org/designsquad/games/",
+                "editable": false
+              }
+            ]
+          },
+          {"name": "Science",
+          "isFolder": true,
+          "editable": false,
+          "children":[
+            {
+              "name": "Molly",
+              "url": "https://pbskids.org/molly/games",
+              "editable": false
+            },
+            {
+              "name": "The Cat in the hat",
+              "url": "https://pbskids.org/catinthehat/games/",
+              "editable": false
+            }
+          ]
         }
-      ]
-    }
-    ,
-    {
-      "name": "phần mềm",
-      "img": "https://slate.textile.io/ipfs/bafkreigzcpdwa7utb2c6amvpuf4xth7kimawhqd74smnvglngpqrg3imkq",
-      "bgColor": "darkgreen",
-      "data": [
-        {
-          "type": "youtube",
-          "name": "Bài 1: giới thiệu",
-          "videoId": "xUOxR6ekg1c",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 2: học trên web",
-          "videoId": "j1RMFt2odbc",
-          "link": "https://rnkids.github.io"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 3: JavaScript cơ bản",
-          "videoId": "SGc3ZPrToAE",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 4: Hàm mũi tên",
-          "videoId": "e8ugDU9OrpQ",
-          "link": "https://rnkids.github.io"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 5: JSX",
-          "videoId": "3pEH-zlXvog",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 6: CSS",
-          "videoId": "Lyyvle5mwdk",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 7: chat app",
-          "videoId": "PFSBqRg3Guw",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 8: emoji",
-          "videoId": "b6yK6qPPUHo",
-          "link": "https://rnkids.github.io"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 9: emoji",
-          "videoId": "esExx9z1hf8",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 10: vẽ hình vuông",
-          "videoId": "XqOAqlhh9AA",
-          "link": "https://rnkids.github.io"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 11: vẽ hình",
-          "videoId": "pAajlzNZ2Gw",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 12: hình tròn",
-          "videoId": "SCQnLeQk5pc",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 13: hình chữ nhật",
-          "videoId": "G-2I0pMkm4",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 14: vẽ gấu trúc",
-          "videoId": "MK7JkBeaErk",
-          "link": "https://rnkids.github.io"
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 15: vẽ gấu trúc",
-          "videoId": "jFsJyQm3shM",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 16: vẽ gấu trúc",
-          "videoId": "9bu5cpXgVhs",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 17: vẽ gấu trúc",
-          "videoId": "drEkBQaZk_s",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 18: vẽ gấu trúc",
-          "videoId": "Mq4SGnRuwao",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 19: vẽ gấu trúc",
-          "videoId": "_mx44B4B3bw",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 20: vẽ gấu trúc",
-          "videoId": "ahQJWMwEp8I",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 21: vẽ gấu trúc",
-          "videoId": "45VSz2FXJ7Y",
-          "link":""
-        },
-        {
-          "type": "youtube",
-          "name": "Bài 22: vẽ gấu trúc",
-          "videoId": "VZKrbk4hyik",
-          "link":""
-        }
-      ]
-    }
-  ]
+          
+        ]
+      },
+      {
+        "name": "Youtube Kids",
+        "isFolder": true,
+        "editable": true,
+        "children": [
+          {
+            "name": "Molly of Daneli",
+            "url": "https://www.youtube.com/embed/videoseries?list=PLLhOnau-tupSS-eFNBOwqgfQHpOV3ASqN",
+            "editable": false
+          },
+          {
+            "name": "Wild Kratts",
+            "url": "https://www.youtube.com/embed/videoseries?list=PLP4H73sp9PL9CbQD8m2Erc7FbZbPHMJZA",
+            "editable": false
+          },
+          {
+            "name": "Super simple song",
+            "url": "https://www.youtube.com/embed/videoseries?list=PLdkj6XH8GYPS6ArBvqavheM_7d705YD-s",
+            "editable": false
+          }
+        ]
+      }
+    ],
+    "Useful Links": [
+      {
+        "name": "Wikipedia",
+        "url": "https://www.wikipedia.org",
+        "editable": true
+      }
+    ]
+  }
+}
